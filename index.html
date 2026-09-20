@@ -1,85 +1,114 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#17130f">
-  <meta name="description" content="ELKA creates bespoke kitchens, furniture and interiors in Jordan, combining craftsmanship, refined materials and tailored design.">
-  <title>ELKA | Kitchens · Furniture · Living</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <script defer src="./script.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#17130f">
+<meta name="description" content="ELKA — bespoke kitchens, furniture and living spaces in Jordan since 1985.">
+<title>ELKA | Kitchens · Furniture · Living</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<script defer src="./script.js"></script>
 </head>
 <body>
-<div class="grain"></div>
-<header class="site-header" id="top">
-  <a class="brand" href="#home"><img src="./elka-logo.png" alt="ELKA Kitchens Furniture Living"></a>
-  <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
-  <nav id="main-nav" class="nav">
-    <a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#about">About</a><a class="nav-link" href="#services">Services</a><a class="nav-link" href="#projects">Projects</a><a class="nav-link" href="#materials">Materials</a><a class="nav-link" href="#process">Process</a><a class="nav-link" href="#contact">Contact</a>
-    <a class="button button-outline nav-cta" href="#contact">Start a project <span>↗</span></a>
+<header class="header">
+  <a href="#home" class="logo"><img src="./elka-logo.png" alt="ELKA Kitchens Furniture Living"></a>
+  <button class="menu" aria-label="Menu"><span></span><span></span></button>
+  <nav>
+    <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
+    <a href="#spaces">Spaces</a><a href="#materials">Materials</a><a href="#contact">Contact</a>
   </nav>
+  <div class="header-right"><span>EN&nbsp; / &nbsp;AR</span><a class="outline" href="#contact">Get in touch →</a></div>
 </header>
+
 <main>
-<section id="home" class="hero" data-nav="home">
-  <div class="hero-bg"></div><div class="hero-overlay"></div><div class="hero-frame"></div>
-  <div class="hero-copy reveal"><p class="eyebrow">Bespoke interiors · Jordan · Since 1985</p><h1>More than<br><span>Kitchens.</span><br><em>A way of living.</em></h1><p class="hero-text">Tailored spaces for modern lives—designed with restraint, crafted with precision, made to belong.</p><div class="hero-actions"><a class="button button-gold" href="#projects">Explore our work <span>→</span></a><a class="text-link" href="#about">Discover ELKA <span>↘</span></a></div></div>
-  <div class="hero-index"><strong>01</strong><span></span><small>03</small></div>
-  <div class="hero-values"><span>Design</span><i></i><span>Materials</span><i></i><span>Craftsmanship</span><i></i><span>People</span></div>
+<section class="hero" id="home">
+  <div class="hero-image"></div><div class="hero-shade"></div>
+  <div class="hero-copy">
+    <p class="kicker">Bespoke interiors<br>for extraordinary living</p>
+    <h1>More than<br>Kitchens.<br><em>A way of living.</em></h1>
+    <p>Tailored spaces. Timeless materials.<br>Crafted in Jordan.</p>
+    <a class="hero-button" href="#spaces">Explore our work <b>→</b></a>
+  </div>
+  <div class="hero-count"><b>01</b><i></i><span>02</span><span>03</span></div>
+  <div class="hero-values">Spaces <i></i> People <i></i> Materials <i></i> Craftsmanship</div>
+  <div class="vertical-note">Interiors that feel like home</div>
 </section>
 
-<section id="about" class="about section-light" data-nav="about"><div class="section-inner about-layout">
-  <div class="about-copy reveal"><p class="eyebrow dark">01 · About ELKA</p><h2>A legacy in<br><em>every detail.</em></h2><p>Founded in 1985, ELKA has spent more than four decades shaping refined living spaces across Jordan. We create bespoke kitchens, furniture and complete interior solutions where function and beauty feel inseparable.</p><p>Every space begins with listening. From measurement and design to manufacturing and installation, each detail is considered around the people who will live with it every day.</p><a class="line-link" href="#process">How we work <span>→</span></a></div>
-  <div class="about-visual reveal"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=90" alt="Refined contemporary interior" loading="lazy"><div class="image-stamp"><span>ELKA</span><small>Est. 1985</small></div></div>
-  <aside class="about-stats reveal"><div><strong>41</strong><span>Years of experience</span></div><div><strong>1000+</strong><span>Completed projects</span></div><div><strong>Jordan</strong><span>Designed & made locally</span></div></aside>
-</div></section>
-
-<section id="services" class="services section-dark" data-nav="services"><div class="section-inner">
-  <div class="section-heading reveal"><div><p class="eyebrow">02 · What we create</p><h2>Tailored solutions<br><em>for every space.</em></h2></div><p>One statement piece or a complete interior—ELKA brings design, manufacturing and installation together in one seamless process.</p></div>
-  <div class="service-strip reveal">
-    <article><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=88" alt="Kitchen"><div><span>01</span><h3>Kitchens</h3></div></article>
-    <article><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=88" alt="Wardrobe"><div><span>02</span><h3>Wardrobes</h3></div></article>
-    <article><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=88" alt="Living room"><div><span>03</span><h3>Living Spaces</h3></div></article>
-    <article><img src="https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=900&q=88" alt="Bedroom"><div><span>04</span><h3>Bedrooms</h3></div></article>
-    <article><img src="https://images.unsplash.com/photo-1617103996702-96ff29b1c467?auto=format&fit=crop&w=900&q=88" alt="Dressing room"><div><span>05</span><h3>Dressing Rooms</h3></div></article>
+<section class="about" id="about">
+  <div class="about-text">
+    <p class="label">About ELKA</p>
+    <h2>A legacy<br>in every detail.</h2>
+    <p class="body">Founded in 1985, ELKA has been shaping refined living spaces in Jordan for over four decades. We design and manufacture bespoke kitchens, wardrobes, furniture and complete interior solutions, combining craftsmanship, innovative materials and a deeply personal approach to every project.</p>
+    <a class="small-button" href="#process">Our story <b>→</b></a>
+    <div class="stats">
+      <div><strong>41</strong><span>Years of<br>experience</span></div>
+      <div><strong>1000+</strong><span>Completed<br>projects</span></div>
+      <div><strong>A Jordanian<br>Company</strong><span>Built on trust</span></div>
+    </div>
   </div>
-  <div class="service-list reveal"><span>Media walls & built-ins</span><span>Bathroom cabinetry</span><span>Doors & wall panels</span><span>Commercial interiors</span><span>Interior design</span><span>Installation</span></div>
-</div></section>
-
-<section id="projects" class="projects section-light" data-nav="projects"><div class="section-inner">
-  <div class="section-heading reveal"><div><p class="eyebrow dark">03 · Selected spaces</p><h2>Spaces with<br><em>character.</em></h2></div><p>Warm woods, sculptural stone, quiet neutrals and deep architectural tones—different expressions, held together by the same attention to detail.</p></div>
-  <div class="editorial-grid">
-    <article class="project project-a reveal"><div class="project-photo"><img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1600&q=92" alt="Warm kitchen"><span>01</span></div><div class="project-caption"><p>Kitchen · Walnut · Stone</p><h3>Modern Warmth</h3><small>Amman · Jordan</small></div></article>
-    <article class="project project-b reveal"><div class="project-photo"><img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1400&q=92" alt="Living interior"><span>02</span></div><div class="project-caption"><p>Living · Oak · Soft Neutrals</p><h3>Quiet Residence</h3><small>Jordan</small></div></article>
-    <article class="project project-c reveal"><div class="project-photo"><img src="https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1400&q=92" alt="Dressing room"><span>03</span></div><div class="project-caption"><p>Dressing · Smoked Glass</p><h3>After Dark</h3><small>Amman · Jordan</small></div></article>
-    <article class="project project-d reveal"><div class="project-photo"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=92" alt="Stone bathroom"><span>04</span></div><div class="project-caption"><p>Bath · Stone · Timber</p><h3>Natural Harmony</h3><small>Jordan</small></div></article>
-  </div>
-</div></section>
-
-<section id="materials" class="materials" data-nav="materials">
-  <div class="material-image reveal"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=90" alt="Interior materials" loading="lazy"></div>
-  <div class="material-copy reveal"><p class="eyebrow">04 · Materials</p><h2>Extraordinary begins<br>with the <em>right material.</em></h2><p>Texture changes how a room feels. We work across natural woods, stone-inspired surfaces, quartz and contemporary finishes to build interiors with depth, durability and character.</p><div class="material-tags"><span>Wood</span><span>Stone</span><span>Quartz</span><span>Finishes</span><span>Textures</span></div><div class="supplier-links"><a href="https://www.emilgroup.com/collections/brand/level/level-marmi/" target="_blank" rel="noopener">Level Marmi <span>↗</span></a><a href="https://www.quartzforms.com/en/collections/2602680-forest-en/" target="_blank" rel="noopener">Quartzforms <span>↗</span></a><a href="https://www.finsa.com/en/" target="_blank" rel="noopener">Finsa <span>↗</span></a></div></div>
+  <div class="about-photo"></div>
+  <blockquote><b>“</b><em>Beautiful<br>spaces don't just<br>happen, they're<br>crafted.</em><span>— ELKA</span></blockquote>
 </section>
 
-<section id="process" class="process section-light" data-nav="process"><div class="section-inner">
-  <div class="section-heading reveal"><div><p class="eyebrow dark">05 · Our process</p><h2>From vision<br><em>to reality.</em></h2></div><p>A clear, considered journey from the first conversation to the final fitting.</p></div>
-  <div class="process-line reveal">
-    <article><span>01</span><div class="process-icon">✦</div><h3>Consultation</h3><p>We listen to your needs, space and ambitions.</p></article>
-    <article><span>02</span><div class="process-icon">⌗</div><h3>Measurement</h3><p>Precise site measurements create the foundation.</p></article>
-    <article><span>03</span><div class="process-icon">◇</div><h3>3D Design</h3><p>Ideas become a clear visual direction.</p></article>
-    <article><span>04</span><div class="process-icon">▦</div><h3>Manufacturing</h3><p>Your project is crafted with careful detailing.</p></article>
-    <article><span>05</span><div class="process-icon">✓</div><h3>Installation</h3><p>Final fitting completes the space with precision.</p></article>
+<section class="services dark" id="services">
+  <div class="section-top">
+    <div><p class="label gold">Our services</p><h2>Tailored solutions for every space.</h2></div>
+    <p>From concept to completion, ELKA brings design, manufacturing and installation together in one seamless process.</p>
+    <a class="dark-button" href="#spaces">View all services →</a>
   </div>
-</div></section>
+  <div class="service-grid">
+    <article><img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=900&q=90"><div><h3>Kitchens</h3><p>Functional beauty</p><b>→</b></div></article>
+    <article><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=90"><div><h3>Wardrobes</h3><p>Organised living</p><b>→</b></div></article>
+    <article><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=90"><div><h3>Living Spaces</h3><p>Designed for connection</p><b>→</b></div></article>
+    <article><img src="https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=900&q=90"><div><h3>Bedrooms</h3><p>A place to belong</p><b>→</b></div></article>
+    <article><img src="https://images.unsplash.com/photo-1617103996702-96ff29b1c467?auto=format&fit=crop&w=900&q=90"><div><h3>Dressing Rooms</h3><p>Luxury in the details</p><b>→</b></div></article>
+    <article><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=90"><div><h3>Commercial Interiors</h3><p>Spaces that work</p><b>→</b></div></article>
+  </div>
+</section>
 
-<section class="manifesto section-dark"><div class="manifesto-inner reveal"><p>We don't fill rooms.</p><h2>We shape the way<br><em>you live in them.</em></h2><span>ELKA · Kitchens · Furniture · Living</span></div></section>
+<section class="spaces" id="spaces">
+  <div class="spaces-title"><div><p class="label">Featured spaces</p><h2>Interiors with character.</h2></div><a href="#contact">Start your project →</a></div>
+  <div class="space-grid">
+    <article><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=92"><h3>Modern Warmth</h3><p>Kitchen · Walnut · Stone</p></article>
+    <article><img src="https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1000&q=92"><h3>Refined Living</h3><p>Dressing · Smoked Glass</p></article>
+    <article><img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1000&q=92"><h3>Contemporary Calm</h3><p>Living · Oak · Soft Neutrals</p></article>
+    <article><img src="https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1000&q=92"><h3>Natural Harmony</h3><p>Bath · Stone · Timber</p></article>
+  </div>
+</section>
 
-<section id="contact" class="contact" data-nav="contact"><div class="contact-bg"></div><div class="contact-shade"></div><div class="section-inner contact-layout">
-  <div class="contact-copy reveal"><p class="eyebrow">06 · Let's create together</p><h2>Your space<br><em>starts here.</em></h2><p>Tell us what you are planning. Our team will be in touch to arrange the next step.</p><div class="contact-details"><a href="tel:+962770022104">+962 77 002 2104</a><a href="https://wa.me/962770022104" target="_blank" rel="noopener">WhatsApp · +962 77 002 2104</a><span>King Abdullah II St, Amman, Jordan</span><span>10:00–20:00 · Except Friday</span></div></div>
-  <form class="contact-form reveal" id="contact-form"><div class="form-row"><label>Name<input name="name" autocomplete="name" required></label><label>Phone / WhatsApp<input name="phone" autocomplete="tel" required></label></div><label>Project type<select name="project"><option>Kitchen</option><option>Wardrobe / Dressing Room</option><option>Bedroom</option><option>Living / Media Wall</option><option>Bathroom Cabinetry</option><option>Commercial Interior</option><option>Interior Design</option><option>Other</option></select></label><label>Tell us about your space<textarea name="message" rows="4" required></textarea></label><button class="button button-gold" type="submit">Send via WhatsApp <span>→</span></button></form>
-</div></section>
+<section class="materials-process" id="materials">
+  <div class="materials-copy">
+    <p class="label">Materials</p><h2>Extraordinary<br>begins with the right<br>materials.</h2>
+    <p>We work with a curated selection of premium woods, natural stone, quartz and contemporary surfaces to create interiors with depth, durability and timeless appeal.</p>
+    <a class="small-button" href="https://www.finsa.com/en/" target="_blank" rel="noopener">Explore materials <b>→</b></a>
+  </div>
+  <div class="material-photo"><div class="material-list"><span>Wood</span><span>Stone</span><span>Quartz</span><span>Finishes</span><span>Textures</span></div></div>
+  <div class="process" id="process">
+    <p class="label">Our process</p><h2>From vision to reality.</h2>
+    <div class="steps">
+      <div><i>♙</i><b>01</b><span>Consultation</span></div><em>—</em>
+      <div><i>⌇</i><b>02</b><span>Measurement</span></div><em>—</em>
+      <div><i>◇</i><b>03</b><span>3D Design</span></div><em>—</em>
+      <div><i>▦</i><b>04</b><span>Manufacturing</span></div><em>—</em>
+      <div><i>⌁</i><b>05</b><span>Installation</span></div>
+    </div>
+    <a class="small-button" href="#contact">Our process <b>→</b></a>
+  </div>
+</section>
 </main>
-<footer><a class="footer-brand" href="#home"><img src="./elka-logo.png" alt="ELKA"></a><nav><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#materials">Materials</a><a href="#contact">Contact</a></nav><p>© <span id="year"></span> ELKA. All rights reserved.</p><a class="back-top" href="#top">↑</a></footer>
+
+<footer id="contact">
+  <div class="footer-logo"><img src="./elka-logo.png" alt="ELKA"></div>
+  <h2>Let's create a space<br>that feels like you.</h2>
+  <div class="contact">
+    <a href="tel:+962770022104">☎ &nbsp; +962 77 002 2104</a>
+    <a href="https://wa.me/962770022104">◉ &nbsp; WhatsApp +962 77 002 2104</a>
+    <span>⌖ &nbsp; King Abdullah II St, Amman, Jordan</span>
+  </div>
+  <div class="copyright"><div class="social">◎ &nbsp; f &nbsp; p &nbsp; in &nbsp; ▶</div><span>© <b id="year"></b> ELKA. All rights reserved.</span></div>
+  <a class="top" href="#home">↑</a>
+</footer>
 </body></html>
